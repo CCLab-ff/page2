@@ -1,0 +1,64 @@
+html,
+body {
+  background-color: #373727;
+  margin: 0px;
+}
+
+canvas {
+  display: block;
+}
+
+.main-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+}
+
+#canvasContainer {
+  width: 750px;
+  height: 650px;
+  z-index: 1;
+}
+
+#white-card {
+  background-color: rgb(214, 185, 154);
+  width: 300px;
+  height: 650px;
+  color: rgb(215, 220, 124);
+  font-size: 30px;
+}
+
+#input-text {
+  position: absolute;
+  right: 55em;
+  top: 200px;
+  width: 200px;
+  z-index: 3;
+}
+
+#white-card {
+  width: 300px;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  position: absolute;
+  left: 12%;
+  top: 0%;
+  margin-top: 0%;
+  border-radius: 0%;
+  padding: 0%;
+  width: 75%;
+  z-index: 2;
+}
+
+#title {
+  width: 400px;
+  position: absolute;
+  left: 0px;
+
+}

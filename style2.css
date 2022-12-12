@@ -1,0 +1,63 @@
+html,
+body {
+  background-image: url("https://i.pinimg.com/564x/7d/fa/de/7dfade2cc71ecb4403e7973edf6b999b.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+}
+
+canvas {
+  display: block;
+}
+
+.main-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+}
+
+#canvasContainer {
+  width: 650px;
+  height: 650px;
+  z-index: 1;
+}
+
+#white-card {
+  background-color: rgb(194, 170, 64);
+  width: 300px;
+  height: 650px;
+  color: rgb(215, 220, 124);
+  font-size: 30px;
+}
+
+#input-text {
+  background-color: rgb(178, 197, 158);
+  position: absolute;
+  right: 60em;
+  top: 210px;
+  width: 200px;
+  height: 40px;
+  z-index: 3;
+}
+
+#white-card {
+  width: 300px;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  position: absolute;
+  left: 22%;
+  top: 10%;
+  margin-top: 0%;
+  border-radius: 0%;
+  padding: 0%;
+  width: 55%;
+  height: 75%;
+  z-index: 2;
+}
