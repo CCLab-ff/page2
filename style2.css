@@ -83,3 +83,11 @@ img {
   font-family: 'Amiri', serif;
 
 }
+
+#button {
+  background-color: bisque;
+  font-weight: bolder;
+  position: absolute;
+  top: 250px;
+
+}
