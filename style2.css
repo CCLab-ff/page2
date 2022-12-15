@@ -27,10 +27,12 @@ canvas {
 }
 
 #white-card {
-  background-color: rgb(194, 170, 64);
+  background-color: rgb(214, 185, 154);
+  padding-top: 150px;
+  padding-bottom: 0px;
   width: 300px;
-  height: 650px;
-  color: rgb(215, 220, 124);
+  height: 500px;
+  color: rgb(21, 21, 20);
   font-size: 30px;
 }
 
@@ -60,4 +62,24 @@ img {
   width: 55%;
   height: 75%;
   z-index: 2;
+}
+
+#desc {
+  position: absolute;
+  top: 600px;
+  left: 10px;
+  margin-top: 0%;
+  color: rgb(181, 237, 237);
+  font-size: 200px;
+  font-family: 'Amiri', serif;
+}
+
+#desc2 {
+  position: absolute;
+  top: 0px;
+  left: 1900px;
+  color: rgb(190, 239, 223);
+  font-size: 200px;
+  font-family: 'Amiri', serif;
+
 }

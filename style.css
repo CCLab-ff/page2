@@ -25,18 +25,21 @@ canvas {
 
 #white-card {
   background-color: rgb(214, 185, 154);
+  padding-top: 80px;
+  padding-bottom: 0px;
   width: 300px;
-  height: 650px;
-  color: rgb(215, 220, 124);
+  height: 570px;
+  color: rgb(21, 21, 20);
   font-size: 30px;
 }
 
 #input-text {
   position: absolute;
   right: 55em;
-  top: 200px;
+  top: 230px;
+  height: 30px;
   width: 200px;
-  z-index: 3;
+  z-index: 2;
 }
 
 #white-card {
@@ -60,5 +63,13 @@ img {
   width: 400px;
   position: absolute;
   left: 0px;
+
+}
+
+#button {
+  background-color: bisque;
+  font-weight: bolder;
+  position: absolute;
+  top: 250px;
 
 }
